@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="new_song.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <title>New Song</title>
+  </head>
+  <body>
+    <div class='create-new'>
+      <h2>Create A New Song</h2>
+    </div>
+    <div class='create-title'>
+      <%= form_for [@artist, @song] do |f| %>
+        <%= f.label :title %> <br>
+        <%= f.text_field :title, class: 'text-area-formatting'%> <br>
+      </div>
+      <div class='create-length'>
+        <%= f.label :length %> <br>
+        <%= f.text_field :length, class: 'text-area-formatting' %> <br>
+      </div>
+      <div class='create-play-count'>
+        <%= f.label :play_count %> <br>
+        <%= f.text_field :play_count, class: 'text-area-formatting'%> <br>
+      </div>
+      <div class='create-button'>
+        <%= f.submit class: 'click-button' %>
+        <% end %>
+      </div>
+  </body>
+</html>

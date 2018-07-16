@@ -1,0 +1,71 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-image: url('cassette.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  grid-template-rows: 65px 65px 65px 65px 65px 65px;
+}
+
+.create-new {
+  padding-top: 5px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.create-title {
+  padding-top: 5px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+.create-length {
+  padding-top: 5px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.create-play-count {
+  padding-top: 5px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align: center;
+}
+
+.create-button {
+  padding-top: 5px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  text-align: center;
+}
+
+.text-area-formatting {
+    border-radius: 5px;
+}
+
+.click-button {
+  width: 120px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #689bed;
+  font-family: 'Open Sans Condensed', sans-serif;
+}

@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='/index.css'>
-    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+    <!-- <link rel='stylesheet' href='/index.css'> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet"> -->
     <meta charset="utf-8">
     <title>Setlist</title>
   </head>
   <body>
-    <section class='main-grid'>
-      <div style="background-color:#a1fcbc" class="header">
-        <h1>Songs</h1>
-      </div>
-      <div style="background-color:#a1fcbc" class='box-grid'>
+    <!-- <section class='main-grid'> -->
+      <!-- <div style="background-color:#a1fcbc" class="header"> -->
+        <h1>All Songs</h1>
+      <!-- </div> -->
+      <!-- <div style="background-color:#a1fcbc" class='box-grid'> -->
         <% @songs.each do |song| %>
-          <div class='mini-box'>
-            <img src="robloxfashowblox.jpeg" width='125px'/>
+          <!-- <div class='mini-box'> -->
+            <!-- <img src="robloxfashowblox.jpeg" width='125px'/> -->
             <p><%= song.title %></p>
             <p><%= song.length %> Seconds</p>
             <p>Play Count: <%= song.play_count%></p>
-          </div>
+          <!-- </div> -->
         <% end %>
-      </div>
-    </section>
+      <!-- </div> -->
+    <!-- </section> -->
   </body>
 </html>
